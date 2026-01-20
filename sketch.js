@@ -92,8 +92,9 @@ function drawRange(){
 function draw() {
   background(220);
   drawMeter();
-  moveMeter(10);
+  moveMeter(11);
   initSegtree();
   drawSegtree();
   drawRange();
+
 }
